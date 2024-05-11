@@ -1,6 +1,6 @@
-# Music-Recommended system Using CNN
+# Music-Recommend system Using CNN
 
-Using traditional image processing techinque to categorize audio into different song generes. The idea is to map input audio into a certain genere using a Convolutional Neural Network so that songs of the same class can be recommended to an user.
+Using traditional image processing techinque to categorize audio into different song genres. The idea is to map input audio into a certain genre using a Convolutional Neural Network so that songs of the same class can be recommended to an user.
 
 ## 1. Dataset
 - dataset on kaggle:
