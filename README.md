@@ -3,10 +3,10 @@
 Using traditional image processing techinque to categorize audio into different song generes. The idea is to map input audio into a certain genere using a Convolutional Neural Network so that songs of the same class can be recommended to an user.
 
 ## 1. Dataset
-- dataset on kaggle
+- dataset on kaggle:
 https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download
 
-- Dataset made and preprocessed to log-specturms by **XiplusChenyu**
+- Dataset made and preprocessed to log-specturms by **XiplusChenyu**:
 https://github.com/XiplusChenyu/Musical-Genre-Classification
 
 ### 1.1 Preprocess Data
@@ -22,4 +22,5 @@ melspec = librosa.feature.melspectrogram(
 log_mel_spectrogram = librosa.power_to_db(mel_spectrogram, ref=np.max)
 '''
 ** It could Look like this **
+![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/melspecturm.png?raw=true)   ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/logmelspecturm.png?raw=true)
 
