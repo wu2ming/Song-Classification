@@ -11,15 +11,16 @@ https://github.com/XiplusChenyu/Musical-Genre-Classification
 
 ### 1.1 Preprocess Data
 The general way to turn audio into an image its to turn it into a specturm. The `librosa` library can used to easily turn audio into melspecturm or logmelspectrum
-'''
+```
 #melspecturm in librosa
+
 signal, sr = librosa.load(
     os.path.join(genre_folder, song))
 melspec = librosa.feature.melspectrogram(
     signal, sr=sr).T[:1280, ]
     
-```
 #logmelspecturm
+
 log_mel_spectrogram = librosa.power_to_db(mel_spectrogram, ref=np.max)
 ```
 
