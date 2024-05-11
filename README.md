@@ -45,6 +45,5 @@ At the end we got around a 80% accuracy with our imporved network
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/test_final.png?raw=true)
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/matrix.png?raw=true)
 
-
 ## Future
 As we can see from our confusion matrix, the network is familair with some of genres but struggles to identity other ones in this context. However, audio is just one aspect of music. We can still lyrics, chords, instruments, producers, artists to categorize music in an more diverse way.
