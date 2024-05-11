@@ -44,7 +44,7 @@ The network consists of 3 convolution layer, a GRU layer and 3 fully-connected l
     - We can easily see that although overfitting still occurs at the end, our validation data is much more aligned with our training data.
 At the end we got around a 80% accuracy with our imporved network
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/test_final.png?raw=true)
-![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/matrix.png?raw=true)
+![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/confusion_matrix.png?raw=true)
 
 ## Future
 As we can see from our confusion matrix, the network is familair with some of genres but struggles to identity other ones in this context. However, audio is just one aspect of music. We can still lyrics, chords, instruments, producers, artists to categorize music in an more diverse way.
