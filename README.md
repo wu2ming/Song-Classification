@@ -18,9 +18,11 @@ signal, sr = librosa.load(
 melspec = librosa.feature.melspectrogram(
     signal, sr=sr).T[:1280, ]
     
+'''
 #logmelspecturm
 log_mel_spectrogram = librosa.power_to_db(mel_spectrogram, ref=np.max)
 '''
+
 ** It could Look like this **
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/melspecturm.png?raw=true)   ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/logmelspecturm.png?raw=true)
 
