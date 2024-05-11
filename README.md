@@ -41,9 +41,7 @@ This network architecture was the idea from this article by XiplusChenyu (https:
 The network consists of 3 convolution layer, a GRU layer and 3 fully-connected layer. Through the use of a more complex architecture along with neuron regularization and batch normalization, the Deep Network is able to pickout the semantics of the audio spectrum unlike in version1 of our CNN. The network is not memorizing the training set anymore, and this can be evident in out final test result
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/crnn_test.png?raw=true)
     
-    
     - We can easily see that although overfitting still occurs at the end, our validation data is much more aligned with our training data.
-
 At the end we got around a 80% accuracy with our imporved network
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/test_final.png?raw=true)
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/matrix.png?raw=true)
