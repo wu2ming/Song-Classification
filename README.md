@@ -24,3 +24,7 @@ log_mel_spectrogram = librosa.power_to_db(mel_spectrogram, ref=np.max)
 ** It could Look like this **
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/melspecturm.png?raw=true)   ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/logmelspecturm.png?raw=true)
 
+## CNN Network
+Originally I started with a really simple 3 layered CNN (2 convolutional layer and 1 output layer). However through rigorous testing it is clear that this simple architecture will always produce an result that is overfitted at around 50% accuracy. This can be seen in: https://github.com/wu2ming/Song-Classification/blob/main/song_classification_old.ipynb
+
+At the end I was only able to reach at best 60% accuracy shown below:
