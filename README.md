@@ -31,3 +31,11 @@ At the end I was only able to reach at best 60% accuracy shown below:
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/overfit.png?raw=true)
 
 ![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/cnn_1_test.png?raw=true)   
+
+## CRNN Network
+This network architecture was the idea from this article by XiplusChenyu (https://github.com/XiplusChenyu/Musical-Genre-Classification/blob/master/music_genre_classification.pdf).  
+![alt_text](https://github.com/XiplusChenyu/Musical-Genre-Classification/blob/master/pictures/crnn.png)
+The network consists of 3 convolution layer, a GRU layer and 3 fully-connected layer. Through the use of a more complex architecture along with neuron regularization and batch normalization, the Deep Network is able to pickout the semantics of the audio spectrum unlike in our first architecture. The network is not memorizing the training set anymore, and this can be evident in out final test result
+![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/.png?raw=true)
+
+![alt text](https://github.com/wu2ming/Song-Classification/blob/main/images/matrix.png?raw=true)
